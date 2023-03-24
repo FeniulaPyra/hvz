@@ -1,0 +1,45 @@
+Lars Puglise
+Van DeMark
+IGME 202 06
+29 Nov 2019
+
+I'm using the grace period for this project.
+
+HVZ B
+
+Game Description:
+A simulation of humans vs zombies demonstrating several steering forces.
+
+User Interaction:
+You can...
+	...add a human/duck at a random place using "H"
+	...remove all humans/ducks by using "H + shift"
+	...add a zombie/cat at a random place using "Z"
+	...remove all zombies/cats by using "Z + shift"
+	...add food at a random place using "F"
+	...remove all food by using "F + shift"
+	...reset the game to one zombie and four ducks using "R"
+	...show debug lines by holding "L"
+	...slow everything down using "-"
+	...speed everything up using "+"
+	...pause everything using "0"
+	...play everything at normal speed using "1"
+
+Above and beyond:
+The game allows the user to speed up and slow down or speed up or pause the entire game
+ using the -, +, 0, and 1 keys.
+The game allows the user to delet all of one type of object. (This is mostly if you want to get a clearer look at how
+ the ducks seek the food)
+
+Known Issues:
+Changing the speed of the game can mess up the debug lines and cause them to extend
+into infinity.
+Because the positions of new humans are generated randomly, sometimes adding a human can result in it 
+spawning on a zombie and immediately being consumed, thus looking like it only spawned a zombie.
+For the same reason, humans, zombies, and food can all be spawned inside an obstacle.
+Food can also be spawned on top of a human, making it look like the food was not spawned.
+
+Sources:
+Lovely Animals PACK by JKTIMMONS
+https://assetstore.unity.com/packages/3d/characters/animals/lovely-animals-pack-92629
+-Used for all models and animations.
